@@ -1,0 +1,29 @@
+aid: motherduck
+url: https://raw.githubusercontent.com/api-evangelist/motherduck/refs/heads/main/apis.yml
+name: MotherDuck
+x-type: company
+description: >-
+  MotherDuck is a serverless cloud analytics database built on DuckDB, with hybrid local + cloud query execution and zero-copy data sharing.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Data
+  - Analytics
+  - DuckDB
+  - Serverless
+  - SQL
+created: '2026-05-08'
+modified: '2026-05-08'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://motherduck.com/
+  - type: Plans
+    url: plans/motherduck-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/motherduck-rate-limits.yml
+  - type: FinOps
+    url: finops/motherduck-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
