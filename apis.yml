@@ -3,21 +3,45 @@ url: https://raw.githubusercontent.com/api-evangelist/motherduck/refs/heads/main
 name: MotherDuck
 x-type: company
 description: >-
-  MotherDuck is a serverless cloud analytics database built on DuckDB, with hybrid local + cloud query execution and zero-copy data sharing.
+  MotherDuck is a serverless cloud data warehouse built on DuckDB. Connectivity is via
+  DuckDB clients (Python, Node.js, Wasm, Go, JDBC) using access tokens or SSO; the
+  service does not publicly document a separate REST management API.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Data
-  - Analytics
-  - DuckDB
+  - Data Warehouse
   - Serverless
+  - DuckDB
   - SQL
+  - Analytics
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: motherduck:motherduck-duckdb-protocol
+    name: MotherDuck DuckDB Connection
+    humanURL: https://motherduck.com/docs/key-tasks/authenticating-and-connecting-to-motherduck/
+    baseURL: md:?token={access_token}
+    tags:
+      - DuckDB
+      - SQL
+      - Analytics
+    description: >-
+      Clients connect to MotherDuck through DuckDB's native protocol using a connection
+      string of the form `md:` plus an access token. Officially supported clients include
+      DuckDB CLI, Python, Node.js, JDBC, Wasm, and Go. Authentication uses access tokens
+      or SSO (Business / Enterprise).
+    properties:
+      - type: Documentation
+        url: https://motherduck.com/docs/
+      - type: Authentication
+        url: https://motherduck.com/docs/key-tasks/authenticating-and-connecting-to-motherduck/
 common:
   - type: Website
     url: https://motherduck.com/
+  - type: Portal
+    url: https://motherduck.com/docs/
+  - type: Pricing
+    url: https://motherduck.com/pricing/
   - type: Plans
     url: plans/motherduck-plans-pricing.yml
   - type: RateLimits
