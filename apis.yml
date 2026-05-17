@@ -1,7 +1,7 @@
 aid: motherduck
 url: https://raw.githubusercontent.com/api-evangelist/motherduck/refs/heads/main/apis.yml
 name: MotherDuck
-x-type: company
+kind: company
 description: >-
   MotherDuck is a serverless cloud data warehouse built on DuckDB. Connectivity is via
   DuckDB clients (Python, Node.js, Wasm, Go, JDBC) using access tokens or SSO; the
