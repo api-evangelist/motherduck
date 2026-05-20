@@ -36,6 +36,10 @@ apis:
       - type: Authentication
         url: https://motherduck.com/docs/key-tasks/authenticating-and-connecting-to-motherduck/
 common:
+  - type: GitHubOrganization
+    url: https://github.com/motherduckdb
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/motherduck
   - type: Website
     url: https://motherduck.com/
   - type: Portal
