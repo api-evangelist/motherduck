@@ -54,6 +54,8 @@ common:
     url: finops/motherduck-finops.yml
   - type: Integrations
     url: https://motherduck.com/ecosystem/
+  - type: LLMsTxt
+    url: https://motherduck.com/llms.txt
 integrations:
   - name: 'Airbyte''s'
   - name: 'AirFlow''s'
