@@ -36,6 +36,11 @@ apis:
       - type: Authentication
         url: https://motherduck.com/docs/key-tasks/authenticating-and-connecting-to-motherduck/
 common:
+  - type: DomainSecurity
+    url: security/motherduck-domain-security.yml
+  - name: Agent Skills
+    url: https://github.com/motherduckdb/agent-skills
+    type: AgentSkills
   - type: GitHubOrganization
     url: https://github.com/motherduckdb
   - type: LinkedIn
@@ -56,6 +61,8 @@ common:
     url: https://motherduck.com/ecosystem/
   - type: LlmsText
     url: https://motherduck.com/llms.txt
+  - url: https://motherduck.com/rss.xml
+    type: Blog
 integrations:
   - name: 'Airbyte''s'
   - name: 'AirFlow''s'
