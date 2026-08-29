@@ -6,6 +6,17 @@ description: >-
   MotherDuck is a serverless cloud data warehouse built on DuckDB. Connectivity is via
   DuckDB clients (Python, Node.js, Wasm, Go, JDBC) using access tokens or SSO; the
   service does not publicly document a separate REST management API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
