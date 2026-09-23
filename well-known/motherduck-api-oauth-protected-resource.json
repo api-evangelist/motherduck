@@ -1,0 +1,1 @@
+{"resource":"https://api.motherduck.com/mcp","authorization_servers":["https://mcp-auth.motherduck.com"],"scopes_supported":["openid","profile","email","read:databases","offline_access"],"bearer_methods_supported":["header"],"resource_documentation":"https://motherduck.com/docs/key-tasks/ai-and-motherduck/connecting-ai-tools-to-motherduck/#mcp-server"}

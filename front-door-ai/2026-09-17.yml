@@ -1,0 +1,32 @@
+# Front Door AI Index — motherduck — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: motherduck
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: motherduck.com
+  final_host: motherduck.com
+  ownership: own
+  owner: motherduck
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 18
+  host_score: 18
+  density: 20.69
+  words: 870
+  tiers:
+    agentic: 9
+    core: 5
+    model: 4
+  ambiguous: 18
+  top_terms:
+    agent: 18
+    AI: 5
+    MCP: 5
+    Claude: 3
+    agentic: 2
+    ChatGPT: 1
+    model context protocol: 1
+    prompts: 1
