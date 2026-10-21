@@ -52,3 +52,55 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: motherduck-metabase-own
+  label: Metabase (own)
+  partner: metabase
+  partner_name: Metabase (own)
+  category: database driver
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://github.com/motherduckdb/metabase_duckdb_driver
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: motherduck-tableau-own
+  label: Tableau (own)
+  partner: tableau
+  partner_name: Tableau (own)
+  category: connector
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.tableau.com/products/1021
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: motherduck-opentofu-opentofu-registry
+  label: OpenTofu (opentofu-registry)
+  partner: opentofu
+  partner_name: OpenTofu (opentofu-registry)
+  category: infrastructure-as-code provider registry listing
+  type: marketplace
+  marketplace: opentofu-registry
+  channel: partner-built
+  evidence: https://search.opentofu.org/provider/motherduckdb/motherduck
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: motherduck-terraform-terraform-registry
+  label: Terraform (terraform-registry)
+  partner: terraform
+  partner_name: Terraform (terraform-registry)
+  category: infrastructure-as-code provider registry listing
+  type: marketplace
+  marketplace: terraform-registry
+  channel: partner-built
+  evidence: https://registry.terraform.io/providers/motherduckdb/motherduck
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
