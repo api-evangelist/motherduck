@@ -1,4 +1,4 @@
-# MotherDuck (motherduck)
+# MotherDuck
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,37 +66,141 @@
 
 MotherDuck is a serverless cloud data warehouse built on DuckDB. Connectivity is via DuckDB clients (Python, Node.js, Wasm, Go, JDBC) using access tokens or SSO; the service does not publicly document a separate REST management API.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/motherduck/refs/heads/main/apis.yml)
+**Areas:** Data Warehouse · Serverless · DuckDB · SQL · Analytics
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=motherduck-api-evangelist&utm_content=repo)
+## MotherDuck on APIs.io
 
-## Type
-- **x-type:** company
+Everything profiled for MotherDuck is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/motherduck/](https://apis.io/providers/motherduck/)** — or go straight to one of the APIs or properties below.
 
-## APIs
-- **MotherDuck DuckDB Connection** - DuckDB-native protocol via `md:?token=<access_token>`. Clients: DuckDB CLI, Python, Node.js, JDBC, Wasm, Go.
+### APIs (1)
 
-## Tags
-- Data Warehouse, Serverless, DuckDB, SQL, Analytics
+- [MotherDuck DuckDB Connection](https://apis.io/apis/motherduck/motherduck-duckdb-protocol/) — Clients connect to MotherDuck through DuckDB's native protocol using a connection string of the form `md:` plus an access token. Officially supported…
 
-## Timestamps
-- **Created:** 2026-05-08
-- **Modified:** 2026-05-08
+### Published properties
 
-## Common Properties
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [motherduck](https://apis.io/servers/motherduck/motherduck/)
+
+#### Agent skills (56)
+
+Agent skills built on the API.
+
+- [motherduck-build-cfa-app](https://apis.io/agent-skills/motherduck/motherduck-build-cfa-app/)
+- [motherduck-build-cfa-app](https://apis.io/agent-skills/motherduck/motherduck-build-cfa-app-2/)
+- [motherduck-build-cfa-app](https://apis.io/agent-skills/motherduck/motherduck-build-cfa-app-3/)
+- [motherduck-build-dashboard](https://apis.io/agent-skills/motherduck/motherduck-build-dashboard/)
+- [motherduck-build-dashboard](https://apis.io/agent-skills/motherduck/motherduck-build-dashboard-2/)
+- [motherduck-build-dashboard](https://apis.io/agent-skills/motherduck/motherduck-build-dashboard-3/)
+- [motherduck-build-data-pipeline](https://apis.io/agent-skills/motherduck/motherduck-build-data-pipeline/)
+- [motherduck-build-data-pipeline](https://apis.io/agent-skills/motherduck/motherduck-build-data-pipeline-2/)
+- [motherduck-build-data-pipeline](https://apis.io/agent-skills/motherduck/motherduck-build-data-pipeline-3/)
+- [motherduck-connect](https://apis.io/agent-skills/motherduck/motherduck-connect/)
+- [motherduck-connect](https://apis.io/agent-skills/motherduck/motherduck-connect-2/)
+- [motherduck-connect](https://apis.io/agent-skills/motherduck/motherduck-connect-3/)
+- [motherduck-create-dive](https://apis.io/agent-skills/motherduck/motherduck-create-dive/)
+- [motherduck-create-dive](https://apis.io/agent-skills/motherduck/motherduck-create-dive-2/)
+- [motherduck-create-dive](https://apis.io/agent-skills/motherduck/motherduck-create-dive-3/)
+- [motherduck-create-flight](https://apis.io/agent-skills/motherduck/motherduck-create-flight/)
+- [motherduck-create-flight](https://apis.io/agent-skills/motherduck/motherduck-create-flight-2/)
+- [motherduck-duckdb-sql](https://apis.io/agent-skills/motherduck/motherduck-duckdb-sql/)
+- [motherduck-duckdb-sql](https://apis.io/agent-skills/motherduck/motherduck-duckdb-sql-2/)
+- [motherduck-duckdb-sql](https://apis.io/agent-skills/motherduck/motherduck-duckdb-sql-3/)
+- [motherduck-ducklake](https://apis.io/agent-skills/motherduck/motherduck-ducklake/)
+- [motherduck-ducklake](https://apis.io/agent-skills/motherduck/motherduck-ducklake-2/)
+- [motherduck-ducklake](https://apis.io/agent-skills/motherduck/motherduck-ducklake-3/)
+- [motherduck-enable-self-serve-analytics](https://apis.io/agent-skills/motherduck/motherduck-enable-self-serve-analytics/)
+- [motherduck-enable-self-serve-analytics](https://apis.io/agent-skills/motherduck/motherduck-enable-self-serve-analytics-2/)
+- …and 31 more published on APIs.io
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Motherduck Domain Security](https://apis.io/security/motherduck/motherduck-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Motherduck Plans Pricing](https://apis.io/plans/motherduck/motherduck-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Motherduck Rate Limits](https://apis.io/rate-limits/motherduck/motherduck-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Motherduck Finops](https://apis.io/finops/motherduck/motherduck-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://motherduck.com/)
-- [Developer Portal](https://motherduck.com/docs/)
 - [Pricing](https://motherduck.com/pricing/)
-- [Plans](plans/motherduck-plans-pricing.yml)
-- [RateLimits](rate-limits/motherduck-rate-limits.yml)
-- [FinOps](finops/motherduck-finops.yml)
+- [Blog](https://motherduck.com/rss.xml)
+- [GitHub](https://github.com/motherduckdb)
 
-## Notes
-- Pricing reconciled (research): Lite (free, 10 GB / 10 compute hours), Business $250/mo + usage, Enterprise custom. Compute per second from Pulse $0.60/hr to Giga $36/hr; storage $0.04/GB-month; AI Functions $1.00 per AI Unit.
-- No standalone REST management API — auth and queries route through the DuckDB client connection.
-- No public OpenAPI spec.
+## API Evangelist rating
 
-## Maintainers
-**FN:** Kin Lane
+**Kin Score 20.0** — emerging · rubric 0.25.0 · scored 2026-10-23
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 18.4 |
+
+**Agent readiness 31.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/motherduck/](https://apis.io/providers/motherduck/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MotherDuck: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/motherduck/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
